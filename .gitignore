@@ -1,35 +1,105 @@
-# Gradle files
-.gradle/
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
-.kotlin/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Environnements virtuels (tous les styles)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
 
-# Log/OS Files
-*.log
+# ---------------------------------------------------------------------------
+# Outils de test / couverture
+# ---------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
+# ---------------------------------------------------------------------------
+# Flet / Flutter
+# ---------------------------------------------------------------------------
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
 *.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
-# Keystore files
-*.jks
+# ---------------------------------------------------------------------------
+# Briefcase
+# ---------------------------------------------------------------------------
+base_module/
+briefcase.toml
+
+# ---------------------------------------------------------------------------
+# Android / Gradle
+# ---------------------------------------------------------------------------
+.gradle/
+local.properties
+*.apk
+*.aab
 *.keystore
+!debug.keystore
+captures/
+android/app/build/
+android/build/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# ---------------------------------------------------------------------------
+# IDE / éditeurs
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
 
-# Android Profiling
-*.hprof
+# ---------------------------------------------------------------------------
+# Système
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Sandbox perso
+# ---------------------------------------------------------------------------
+_SANDBOX/arbo.txt
