@@ -1,1 +1,5 @@
-flet==0.24.1
+# Framework d'interface graphique et de build APK
+flet>=0.21.0
+
+# Dépendances complémentaires courantes pour Flet (optionnelles selon vos besoins)
+pillow>=10.0.0
