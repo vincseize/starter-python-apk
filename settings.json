@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "Starter Python APK",
+    "display_name": "Starter Python APK",
+    "version": "1.0.0",
+    "build_number": 1,
+    "description": "Application mobile développée avec Python et Flet.",
+    "author": "Votre nom",
+    "company": "Votre entreprise",
+    "website": "https://example.com",
+    "email": "contact@example.com"
+  },
+  "android": {
+    "package_name": "com.example.starterpythonapk",
+    "min_sdk_version": 23,
+    "target_sdk_version": 35,
+    "icon": "src/assets/icon.png",
+    "splash": "src/assets/splash.png",
+    "orientation": "portrait"
+  },
+  "build": {
+    "platform": "android",
+    "output_directory": "src/build/apk",
+    "apk_name": "starter-python-apk.apk",
+    "release": true
+  },
+  "interface": {
+    "theme": "light",
+    "primary_color": "#2563EB",
+    "language": "fr",
+    "show_splash": true
+  }
+}
